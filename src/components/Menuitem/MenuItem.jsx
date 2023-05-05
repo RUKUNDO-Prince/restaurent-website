@@ -13,6 +13,9 @@ const MenuItem = ({ title, price, tags }) => (
         <p className="p__cormorant" style={{color: '#dcca87'}}>{price}</p>
       </div>
     </div>
+    <div className="app__menuitem-sub">
+      <p className="p__opensans" style={{ color: '#aaa' }}>{tags}</p>
+    </div>
   </div>
 );
 
